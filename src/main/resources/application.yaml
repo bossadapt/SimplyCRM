@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SimplyCRM
+  jpa:
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+security:
+    jwt:
+        secret-key: longasspasswordthatshouldbechanged
